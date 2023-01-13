@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  mysql:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: MySQL_Server
+    restart: always
+    volumes:
+      - "./mysql:/var/opt/mssql/data"
+    environment:
+      TZ: Europe/Berlin
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Password4File)"
+    ports:
+      - "1433:1433"
