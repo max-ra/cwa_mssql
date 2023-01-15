@@ -4,7 +4,6 @@ services:
   mysql:
     image: mcr.microsoft.com/mssql/server:2019-latest
     container_name: MySQL_Server
-    user: 9004:0
     restart: always
     volumes:
       - "./mssql:/var/opt/mssql/data"
