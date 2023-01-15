@@ -4,9 +4,10 @@ services:
   mysql:
     image: mcr.microsoft.com/mssql/server:2019-latest
     container_name: MySQL_Server
+    user: 9004:0
     restart: always
     volumes:
-      - "./mysql:/var/opt/mssql/data"
+      - "./mssql:/var/opt/mssql/data"
     environment:
       TZ: Europe/Berlin
       ACCEPT_EULA: "Y"
