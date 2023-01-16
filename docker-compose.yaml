@@ -9,6 +9,7 @@ services:
       - "./mssql:/var/opt/mssql/data"
     environment:
       TZ: Europe/Berlin
+      MSSQL_PID: "Express"
       ACCEPT_EULA: "Y"
       MSSQL_SA_PASSWORD: "${DB_PASSWD"
     ports:
