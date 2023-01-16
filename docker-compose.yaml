@@ -11,6 +11,6 @@ services:
       TZ: Europe/Berlin
       MSSQL_PID: "Express"
       ACCEPT_EULA: "Y"
-      MSSQL_SA_PASSWORD: "${DB_PASSWD"
+      MSSQL_SA_PASSWORD: "${DB_PASSWD}"
     ports:
       - "1433:1433"
