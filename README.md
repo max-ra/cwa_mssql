@@ -4,9 +4,8 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Deploye Microsoft SQL Server as container
+* [Version Tags](https://mcr.microsoft.com/en-us/artifact/mar/mssql/server/tags)
 
 ### How do I get set up? ###
 
